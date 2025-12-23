@@ -1,5 +1,9 @@
 name: Parallel
 
+on:
+  push:
+    branch: main
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
